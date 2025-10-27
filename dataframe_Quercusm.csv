@@ -1,0 +1,212 @@
+Fecha,lugar,Especie,Id,Altura_m,Diametro_cm,diametro_copa1_m,diametro_copa2_m,Longitud,Latitud
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,1,4.5,7.8,1.5,1,-96.50696667,17.57791667
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,2,5.9,13.5,3.5,3,-96.50693333,17.57795278
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,3,6.5,8,2,1.5,-96.50695,17.57787222
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,4,7.5,11.7,6,7,-96.50690556,17.57792778
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,5,5,11,3,3,-96.50685,17.57797778
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,6,4,7.5,2,1.8,-96.50686944,17.57798611
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,7,1.9,1,0.5,0.3,-96.50686667,17.57793889
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,8,4.5,6,1.2,1,-96.5069,17.57792222
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,9,1.2,1,0.3,1.2,-96.50693056,17.57780278
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,10,0.87,0.4,0.5,0.4,-96.50686667,17.5778
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,11,8,11,7,8,-96.50683333,17.57781944
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,12,5,8,2.5,2,-96.50689167,17.57776389
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,13,2.6,2.8,0.8,0.9,-96.50684167,17.57780556
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,14,1.1,1,0.6,0.7,-96.50681111,17.57781389
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,15,2.6,3.5,1.2,1,-96.5068,17.57778056
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,16,2.5,2.5,0.9,1,-96.50685278,17.57776667
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,17,7,26,6,6,-96.50690833,17.57773611
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,18,7.5,37,8,7,-96.506875,17.57768889
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,19,2.1,2,0.8,0.6,-96.50692222,17.57759167
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,20,5,11,3,2.5,-96.50690556,17.57770278
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,21,0.3,1,0.3,0.2,-96.506925,17.57766667
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,22,0.2,0.9,0.1,0.1,-96.50693611,17.57767222
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,23,8.5,17,7,8,-96.50668056,17.57743056
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,24,8.5,13,2.5,2.8,-96.50673611,17.57739722
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,25,12,82,18,20,-96.506675,17.57733056
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,26,11,92,10,14,-96.50658889,17.57735833
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,27,10,25,NA,NA,-96.50654722,17.57739444
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,28,12,33,5,6,-96.50647222,17.577375
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,29,11,18,4,5,-96.50646111,17.57755
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,30,12,52,5,6,-96.50652222,17.57736111
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,31,10,50,6,6,-96.50625833,17.57735
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,32,10,50,5,6,-96.83960556,17.57741944
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,33,12,90,10,12,-96.50627222,17.57731944
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,34,20,135,20,18,-96.50668889,17.57708611
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,35,10,45,5,6,-96.51553611,17.58420278
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,36,9,60,20,30,-96.51534167,17.58170278
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,37,1.3,1,0.3,0.5,-96.51504167,17.58173889
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,38,14,70,8,7,-96.51563611,17.5818
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,39,2.9,3,1.8,1.9,-96.51576944,17.58175
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,40,15,40,7,6,-96.51576389,17.58179444
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,41,22,75,10,8,-96.51588056,17.58179444
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,42,1.2,1,0.3,0.4,-96.51504722,17.58172778
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,43,3.2,3,2,1,-96.51494444,17.58169722
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,44,25,1.45,15,10,-96.515625,17.58190278
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,45,2,1.2,15,10,-96.515575,17.58194722
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,46,15,65,6,6,-96.51547222,17.58193333
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,47,16,34,10,7,-96.51542222,17.58192222
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,48,11,32,8,7,-96.51537222,17.58196111
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,49,10,25,8,7,-96.51535833,17.58201944
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,50,10,55,5,7,-96.51540556,17.58208056
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,51,15,50,8,7,-96.51538333,17.58216389
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,52,15,23,5,7,-96.51539167,17.58216389
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,53,15,23,5,7,-96.515325,17.5821
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,54,1.2,2,6,0.2,-96.51570833,17.5821
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,55,1.6,3,0.6,0.8,-96.51566111,17.58109167
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,56,1.6,2,0.5,0.3,-96.51566111,17.58108611
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,57,1.6,2,0.5,0.3,-96.51563333,17.58109444
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,58,2.5,1.3,1,0.9,-96.51560833,17.58108611
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,59,2.7,3,0.6,0.8,-96.51559722,17.58107222
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,60,12,35,10,8,-96.51551667,17.58115
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,61,18,70,15,14,-96.51550278,17.58118056
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,62,12,32,10,8,-96.51546667,17.58115556
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,63,15,41,10,8,-96.51098889,17.57843056
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,64,12,45,10,8,-96.51136111,17.57841111
+29/02/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,65,20,105,10,12,-96.51101667,17.57825556
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,66,13,24.6,9,7,-96.51138333,17.58315278
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,67,0.27,0.3,0.1,0.12,-96.51143056,17.58320278
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,68,0.8,0.4,0.22,0.18,-96.51143611,17.58324444
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,69,0.5,0.3,20,18,-96.51146944,17.58325
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,70,12,37,8,3,-96.51143333,17.58316111
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,71,12,24,6,4,-96.51148333,17.58313333
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,72,0.18,0.3,3,0.8,-96.51143611,17.58311944
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,73,14,62,6,8,-96.51154444,17.58313889
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,74,0.55,0.3,10,0.9,-96.51151667,17.58313889
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,75,0.55,0.3,0.1,0.9,-96.51151667,17.58313889
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,76,0.6,0.3,0.1,0.9,-96.51151667,17.58313889
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,77,0.3,0.4,0.25,0.15,-96.51140833,17.58317222
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,78,15,49,9,6,-96.51149722,17.5831
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,79,0.9,0.5,0.15,0.11,-96.51162778,17.58298611
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,80,0.8,0.6,0.22,0.12,-96.51157778,17.58329444
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,81,0.8,0.5,0.1,0.13,-96.51153889,17.58309444
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,82,1.56,0.9,0.42,0.36,-96.51156667,17.5831
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,83,1,0.55,0.29,0.2,-96.51163333,17.58311111
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,84,1.2,1,1.22,0.47,-96.51155833,17.58308056
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,85,0.6,0.3,0.2,0.19,-96.51163611,17.58309722
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,86,2.5,1.5,0.6,0.8,-96.511625,17.5831
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,87,2.5,1.5,0.6,0.8,-96.51159722,17.58307222
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,88,0.5,0.3,0.6,0.8,-96.51159722,17.58307222
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,89,2.3,1.3,0.5,0.6,-96.51160556,17.58308333
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,90,7,18,3,4,-96.51163611,17.58309444
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,91,0.6,0.5,3,4,-96.51163611,17.58309444
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,92,3.5,2.5,0.8,0.6,-96.51165278,17.58305556
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,93,2,1.5,0.4,0.5,-96.51168889,17.58302222
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,94,1.6,1,0.4,0.6,-96.51163056,17.58307222
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,95,15,72,8,9,-96.51156667,17.58303056
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,96,4,3,0.9,0.8,-96.51155278,17.58304167
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,97,4,3,0.9,0.8,-96.51155278,17.58304167
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,98,1.2,0.5,0.3,0.2,-96.51157778,17.583125
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,99,1.2,0.5,0.3,0.2,-96.51157778,17.583125
+25/04/2024,"Cerro pelón, Santiago Comaltepec",Q. macdougallii,100,1.2,0.5,0.3,0.2,-96.51157778,17.583125
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,101,1.7,1,0.6,0.5,-96.44976467,17.38102186
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,102,7.5,19.5,0.6,0.6,-96.44954204,17.38102724
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,103,1.4,4,2,1.8,-96.44963048,17.38104941
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,104,1.4,1,0.7,0.4,-96.44957313,17.38105476
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,105,3.4,3,1.8,2.1,-96.44967827,17.38106037
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,106,4.5,8,2.5,2.8,-96.44967174,17.38108061
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,107,3.1,3,1,0.8,-96.44971674,17.38107409
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,108,5,11,4.5,4.8,-96.44965813,17.38112423
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,109,4,5,1.8,1.5,-96.4496291,17.38114709
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,110,5,9,3.5,3,-96.44963212,17.38114658
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,111,6.5,11.5,5,5,-96.44973594,17.3811462
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,112,10,22,6,7,-96.4492197,17.38116176
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,113,4.5,6.5,3,2.8,-96.44916707,17.38136623
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,114,1,1,0.5,0.37,-96.44917058,17.38140301
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,115,5,19.5,6,6.5,-96.44923087,17.38162731
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,116,7,30,6,6.5,-96.44918062,17.38167171
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,117,3.5,6.25,3.2,3,-96.44831932,17.38165266
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,118,4.5,6,3,2.8,-96.44925756,17.38160762
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,119,4.5,12,3,3,-96.44929604,17.38160243
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,120,7,30,6,7,-96.44929566,17.38168267
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,121,8,22.5,6,6,-96.44927593,17.38187866
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,122,8,37,8,7,-96.44917976,17.38184304
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,123,4,10,2.8,2.8,-96.44925436,17.38179409
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,124,1.6,2,90,60,NA,NA
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,125,2.8,3.5,1.2,1,NA,NA
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,126,4,9,3,2.8,-96.44917982,17.38179202
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,127,1.1,1.5,0.8,0.4,-96.44924817,17.38186194
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,128,6,10,2,2.1,-96.44917061,17.38189003
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,129,8,15.8,8,7,-96.44829013,17.3819446
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,130,9,17.2,7,8,-96.44916057,17.38179166
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,131,0.7,2,0.4,0.6,NA,NA
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,132,0.5,0.5,0.3,0.2,NA,NA
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,133,1.1,2,0.5,0.6,NA,NA
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,134,4,11,2,1.8,-96.4491037,17.38187522
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,135,9.5,24,9,9,-96.44906629,17.38194789
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,136,11,14.7,8,8,-96.44902969,17.38190187
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,137,10,27,5,6,-96.44905573,17.38190996
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,138,11,25,8,7,-96.44903254,17.38203504
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,139,11,18.7,7,8,-96.44884786,17.38197661
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,140,11,18,9,8,-96.44896078,17.38214651
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,141,12.5,29.5,8,8,-96.44901719,17.38207234
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,142,2.3,3.3,1.2,1,-96.44966998,17.38196344
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,143,2.1,3,1.5,1.6,-96.44963811,17.38201226
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,144,8,32,7,7,-96.44944644,17.3819433
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,145,6.5,23,5,4,-96.44944656,17.38196804
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,146,2.5,20,3,2.8,NA,NA
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,147,6.5,13.5,6,5,-96.44936358,17.38272343
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,148,2.1,5,1.2,1,-96.44932686,17.38271065
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,149,10,23,2,2.1,-96.44934129,17.38181137
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,150,3.5,7.5,3,1.5,-96.44934958,17.38176207
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,151,6.5,25,5,5,-96.44925996,17.38170606
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,152,3.5,7,2,1.8,-96.44921792,17.38174006
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,153,3,3.2,3,3,-96.44919646,17.38171611
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,154,3.5,23,6,7,-96.44923394,17.38166562
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,155,7,23.5,6,5,-96.44921449,17.3816091
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,156,4,6,2.5,2,-96.44909527,17.38182626
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,157,7,20,6,6,-96.44919868,17.38186804
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,158,0.5,0.4,0.3,0.2,NA,NA
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,159,1.2,0.4,0.6,0.6,-96.44908399,17.38186822
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,160,1,0.5,0.5,0.4,-96.44911826,17.38186429
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,161,11,23.4,9,8,-96.44907739,17.38194072
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,162,10,13.6,9,9,-96.44897434,17.38188134
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,163,2.8,4,1.2,1.5,-96.44898491,17.38184588
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,164,2.5,3,1.5,1.2,-96.4489799,17.38181896
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,165,12,24,9,9,-96.4490004,17.38179357
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,166,3,5,1.8,1.5,-96.44898194,17.38174777
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,167,3.5,5,1.5,1,-96.44889218,17.38180931
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,168,2.8,0.4,1,1.5,-96.44889582,17.38184297
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,169,2.8,3,2,1.5,-96.44886011,17.38190677
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,170,11,15.2,10,9,-96.4488145,17.38183106
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,171,11,30,6,5,-96.44875058,17.38180421
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,172,8,16,4,5,-96.44872998,17.38180566
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,173,8.5,22,4,5,-96.44873614,17.38185722
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,174,11,21.7,8,8,-96.44872474,17.38189523
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,175,10,18.1,8,8,-96.44879639,17.38191049
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,176,11,23.3,9,9,-96.44886529,17.38192464
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,177,9,22,9,8,-96.4489266,17.38196304
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,178,11,17.2,9,10,-96.44890458,17.38201596
+22/08/2024,"POZUELOS, IXTLÁN",Q. macdougallii,179,11,19.6,8,9,-96.44893483,17.38200869
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,180,4,8,2,1.5,-96.44838056,17.3804
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,181,4.5,7.6,3,4,-96.44838056,17.3804
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,182,6,8.7,7,4,-96.44835,17.38033056
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,183,6,10.4,3.5,2.5,-96.44836111,17.38034444
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,184,4,6.5,2.5,1.8,-96.44836111,17.38034444
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,185,5,11,5,4,-96.44840556,17.38039167
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,186,6,11.1,3.5,3,-96.44836667,17.38034722
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,187,5,9.2,2,1.5,-96.448325,17.38029444
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,188,4,9.2,3,2,-96.44813056,17.38031389
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,189,5,9,3,1.6,-96.44828333,17.38025278
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,190,5,9.5,2,1.5,-96.44831111,17.38031944
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,191,3,8,1,1,-96.44829167,17.380275
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,192,5,14,3,3,-96.44826667,17.38025556
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,193,3,4.5,1.5,1.3,-96.44829444,17.38032778
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,194,5,8.8,4,3,-96.448275,17.38029167
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,195,4,7,3,2,-96.44818056,17.38028611
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,196,1.95,1.9,1,0.7,-96.44827778,17.38050833
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,197,3,6,2,2.5,-96.44831111,17.38045
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,198,5,6.6,3,2,-96.44836389,17.38041389
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,199,5,7,3.5,2.3,-96.44829722,17.380425
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,200,4.1,7.3,3,3,-96.44836389,17.38041944
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,201,2.7,5.2,2.5,2,-96.448325,17.38036944
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,202,5,7.9,5,4,-96.44805,17.38042222
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,203,6,8.6,4.5,4.5,-96.44737778,17.380475
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,204,4.5,15.2,4,3,-96.44793889,17.38035833
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,205,3,6.5,1.3,2,-96.44797222,17.38034722
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,206,5.5,9.2,4,4,-96.44794444,17.38033889
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,207,6,9.2,5,4,-96.44794444,17.38045
+04/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,208,4.3,8.1,3.6,2.6,-96.44792222,17.3804
+05/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,209,6,10.6,3,4,-96.44790278,17.38039722
+06/09/2024,"POZUELOS, IXTLÁN",Q. macdougallii,210,6,8.8,5,4,-96.44788056,17.38042222
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
