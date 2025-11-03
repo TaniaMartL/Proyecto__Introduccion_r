@@ -1,0 +1,253 @@
+---
+title: "Mapa del Área de estudio"
+author: "Tania Martínez León"
+date: "2025-10-26"
+output: html_document
+---
+
+##### El área de estudio se encuentra ubicada en la Sierra Juárez, de Oaxaca, México, dentro del sistema montañoso de la Sierra Madre de Oaxaca, de manera particular en la vertiente Cerro Zacate- Humo Grande. El área de distribución de *Q. macdougalli*i pertenece a los municipios de Santiago Comaltepec e Ixtlán de Juárez. El clima del área de estudio es templado húmedo con lluvias en verano, con una precipitación media anual de 1600 mm y una temperatura media anual de 14 °C (Anacleto-Carmona, 2015).
+
+#### Descripción de las capas a utilizar
+
+##### Para elaborar el mapa de los sitios de muestreo de los datos de Q. macdougallii, se van a ocupar 1 capa ráster (DEM), y cuatro capas vectoriales (polígonos de: México, Oaxaca , distrito de Ixtlán de Juárez y sitios de muestreo) además se creará una nueva capa ráster a partir del DEM.
+
+#### Instrucciones
+
+#### 1. Cargar paquetes necesarios
+
+```{r setup, warning=FALSE, message=FALSE}
+# Vector de paquetes necesarios
+paquetes <- c("ggplot2",    # Visualización de datos
+              "sf",         # Archivos vectoriales
+              "RColorBrewer", # Paletas de colores
+              "terra",      # Maneja archivos raster
+              "dbplyr",     # Manipulación de bases de datos
+              "cowplot",    # Unión de gráficas
+              "ggspatial",  # Rosa, la escala
+              "magick",     # Fotos dentro de gráficos
+              "patchwork",  # Une gráficas
+              "ggnewscale", # Agrega nuevas paletas de colores para sobreponer capas en la composición del mapa
+              "tidyterra")  # Sobreponer capa hillshade sobre DEM
+# Instalar paquetes si no están instalados
+#install.packages(paquetes, dependencies = TRUE)
+
+# Cargar librerias
+library(ggplot2) 
+library(sf) 
+library(RColorBrewer)
+library(terra)
+library(dbplyr) 
+library(cowplot) 
+library(ggspatial) 
+library(magick) 
+library(patchwork) 
+library(ggnewscale)
+library(tidyterra)
+
+```
+
+#### 2. Importar archivos vectoriales
+
+#### 2.1 Cargar la capa de México
+
+```{r, warning=FALSE, message=FALSE}
+Mexico <- st_read("destdv250k_2gw.shp")
+dim(Mexico)
+names(Mexico)
+head(Mexico)
+class(Mexico)
+```
+
+#### 2.2 cargar capa de Oaxaca
+
+```{r, warning=FALSE, message=FALSE}
+oaxaca <- st_read("oaxaca.shp")
+dim(oaxaca)
+names(oaxaca)
+head(oaxaca)
+class(oaxaca)
+crs(oaxaca, proj = TRUE)
+plot(oaxaca)
+```
+
+#### 2.3 Cargar capa con los municipios del distrito de Ixtlán
+
+```{r, warning=FALSE, message=FALSE}
+ixtlan <- st_read("ixtlan_dis_mun.shp")
+dim(ixtlan)
+names(ixtlan)
+plot(ixtlan)
+crs(ixtlan, proj = TRUE)
+```
+
+#### 2.4 Cargar capa de puntos de muestreo
+
+```{r, warning=FALSE, message=FALSE}
+sitios <- st_read("Sitios.shp")
+dim(sitios)
+names(sitios)
+crs(ixtlan, proj = TRUE)
+
+```
+
+#### 3. Importar rásters
+
+#### 3.1 Modelo Digital de elevaciónn
+
+```{r, warning=FALSE, message=FALSE}
+elevacion<-rast("DEM_ixtlan.tif")
+elevacion
+plot(elevacion)
+summary(elevacion)
+dim(elevacion)
+class(elevacion)
+elevacion$DEM_ixtlan
+crs(ixtlan, proj = TRUE)
+```
+
+#### 3.2 Crear un hillshade a partir del modelo digital de elevación
+
+##### Un Hillshade es una representación de un modelo digital de elevación (DEM) que utiliza sombreado para simular la luz del sol y crear un efecto tridimensional que muestra la topografía.
+
+#### 3.2.1 Calcular atributos
+
+##### La función terra::terrain() permite calcular la pendiente y la orientación a partir del DEM. Estas son esenciales para la capa Hillshade
+
+```{r, warning=FALSE, message=FALSE}
+terrain_attributes <- terrain(elevacion, v = c("slope", "aspect"), unit = "radians")
+slope <- terrain_attributes$slope
+aspect <- terrain_attributes$aspect
+
+```
+
+##### La función terra::shade() utiliza la pendiente y la orientación calculadas, junto con un ángulo y una dirección del sol especificados, para crear el ráster de sombreado.
+
+##### Define el ángulo y la dirección del sol (p. ej., 45 grados de elevación, 0 grados de acimut)
+
+```{r, warning=FALSE, message=FALSE}
+hillshade <- shade(slope, aspect, angle = 45, direction = 0) 
+names(hillshade) <- "shades" # Renombrar
+```
+
+#### 3.2.2 Visualizar el sombreado
+
+#### Graficar el sombreado directamente. Más adelante, se combinará con la capa DEM
+
+```{r, warning=FALSE, message=FALSE}
+plot(hillshade, col = gray.colors(256, start = 0, end = 1), legend = FALSE) 
+```
+
+#### 3.3 Convertir el ráster de elevación en un data frame
+
+```{r, warning=FALSE, message=FALSE}
+df_Ele<- as.data.frame(elevacion, xy = TRUE)
+summary(df_Ele)
+class(df_Ele)
+
+```
+
+#### 4. Visualizaciones
+
+#### 4.1 Visualizar ráster
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(data = df_Ele,aes(x = x, 
+                         y = y)) +
+  geom_raster(aes(fill = DEM_ixtlan))
+```
+
+#### 4.1.2 Creando paleta propia
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(data = df_Ele,aes(x = x, 
+                         y = y)) +
+  geom_raster(aes(fill = DEM_ixtlan))+
+  scale_fill_gradientn(colours = c("#698B22", "#FFC125","darkred")) 
+
+```
+
+#### 4.2 Añadir capas vectoriales
+
+##### Crear paleta de color para la capa de sitios
+
+```{r}
+pal_col <- c('darkorchid4', 'royalblue4')
+```
+
+#### 4.2.1 Añadir 2 Capas vectoriales
+
+```{r, warning=FALSE, message=FALSE}
+ggplot(data =ixtlan) +
+  geom_sf(color='black', fill=NA) +
+  xlab("Longitud") + ylab("Latitud") +
+  ggtitle("Zona de estudio",
+          subtitle = "Sitios de Muestreo")+
+ geom_sf(data=sitios, color = 'black', aes(fill=Sitio))+
+  scale_fill_manual(values=pal_col) 
+```
+
+#### Mapa del País con estado de Oaxaca
+
+```{r, warning=FALSE, message=FALSE}
+mv1 <- ggplot(data =Mexico) +
+  geom_sf(color='black', fill=NA) +
+  xlab("Longitud") + ylab("Latitud") +
+  ggtitle("Macrolocalización")+
+  geom_sf(data=oaxaca, color = 'black', fill='black')+
+  theme_bw()
+mv1
+```
+
+#### Mapa de Oaxaca con el distrito de Ixtlán
+
+```{r}
+mv2 <- ggplot(data =oaxaca) +
+  geom_sf(color='black', fill=NA) +
+  xlab("Longitud") + ylab("Latitud") +
+  ggtitle("Distrito de Ixtlán de Juárez", )+
+  theme(plot.title = element_text(size = 12))+
+  geom_sf(data=ixtlan, color = 'black', fill='black')+
+  theme_bw()
+mv2
+```
+
+#### 4.3 Añadir 3 capas 2 raster y 1 vectorial
+
+##### Añadir rosa de los vientos y escala
+
+```{r, warning=FALSE, message=FALSE}
+m <-ggplot()+
+  geom_raster(data = df_Ele,aes(x = x, 
+                                   y = y,fill = DEM_ixtlan))+
+  scale_fill_gradientn(colours = c("#698B22", "#FFC125","darkred"), name = "Elevación (msnm)")+
+  xlab("Longitud") + ylab("Latitud") +
+  ggtitle("Zona de estudio",
+          subtitle = "Sitios de Muestreo de Q. macdougallii")+
+  annotation_scale(location = "br", width_hint = 0.5) + # añadir escala
+  annotation_north_arrow(location = "br", which_north = "true",  # añadir rosa de los vientos 
+                         pad_x = unit(0.75, "cm"), pad_y = unit(0.5, "cm"),
+                         style = north_arrow_fancy_orienteering)+
+  new_scale_fill()+ # Permite agregar una nueva paleta de color para la siguiente capa 
+  geom_spatraster(data = hillshade, aes(fill = shades), alpha = 0.3) + # Ajustar la transparencia con alpha
+  scale_fill_gradientn(colors = hcl.colors(100, "Grays"), na.value = NA, guide = "none") +
+  new_scale_fill()+ # Permite agregar una nueva paleta de color para la siguiente capa
+  geom_sf(data=sitios, color = 'black', aes(fill=Sitio))+
+  scale_fill_manual(values=pal_col)+
+  theme_linedraw()
+
+m
+
+```
+
+#### 5. Mapa completo
+
+```{r}
+mapa <- ((mv1 / mv2 + plot_layout(guides = 'keep')) | m) + plot_layout(guides = 'collect')
+mapa
+```
+
+#### 5.1 Guardar mapa
+
+```{r}
+ggsave("Mapa_Final.jpg", plot = mapa, width = 11, height = 6,dpi = 300)
+```
